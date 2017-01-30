@@ -10,7 +10,7 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test --reporter dot"
+    "test": "ember test"
   },
   "repository": "https://github.com/travis-ci/travis-web",
   "engines": {
