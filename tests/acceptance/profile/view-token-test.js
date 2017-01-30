@@ -65,5 +65,5 @@ test('view token', function (assert) {
   andThen(function () {
     assert.equal(profilePage.token.value, 'testUserToken');
   });
-  percySnapshot(assert);
+  percySnapshot(assert, { breakpoints: ['desktop', 'mobile'] });
 });

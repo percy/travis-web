@@ -15,5 +15,5 @@ test('signed in but without repositories', function (assert) {
   andThen(function () {
     assert.equal(currentURL(), '/getting_started');
   });
-  percySnapshot(assert);
+  percySnapshot(assert, { breakpoints: ['desktop', 'mobile'] });
 });

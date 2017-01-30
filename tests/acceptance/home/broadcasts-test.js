@@ -52,7 +52,7 @@ test('the broadcast tower shows a warning even when an announcement exists, broa
     assert.equal(topPage.broadcasts(1).message, 'Join the resistance!');
   });
 
-  percySnapshot(assert);
+  percySnapshot(assert, { breakpoints: ['desktop', 'mobile'] });
 
   topPage.broadcasts(0).dismiss();
 
