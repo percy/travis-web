@@ -3,7 +3,7 @@ ruby "~> 2.4.2"
 source 'https://rubygems.org'
 
 gem 'travis-web', path: 'waiter'
-gem 'puma'
+gem 'puma', '>= 5.6.7'
 gem 'rack-ssl', '~> 1.3'
 gem 'rack-protection', '~> 1.3'
 gem 'rack-mobile-detect'
