@@ -22,5 +22,5 @@ end
 
 group :test do
   gem 'rspec', '~> 2.11'
-  gem 'sinatra-contrib'
+  gem 'sinatra-contrib', '>= 2.0.1'
 end
