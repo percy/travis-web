@@ -17,7 +17,7 @@ end
 
 group :development do
   # gem 'debugger'
-  gem 'foreman'
+  gem 'foreman', '>= 0.86.0'
 end
 
 group :test do
