@@ -7,7 +7,7 @@ gem 'puma'
 gem 'rack-ssl', '~> 1.3'
 gem 'rack-protection', '~> 1.3'
 gem 'rack-mobile-detect'
-gem 'sinatra'
+gem 'sinatra', '>= 4.1.0'
 gem 'hashr'
 
 group :development, :test do
@@ -22,5 +22,5 @@ end
 
 group :test do
   gem 'rspec', '~> 2.11'
-  gem 'sinatra-contrib'
+  gem 'sinatra-contrib', '>= 4.1.0'
 end
